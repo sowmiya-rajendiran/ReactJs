@@ -50,4 +50,4 @@
     - And user sample mail-id for testing - 123456@gmail.com
 
 ## Deployed Link
-- 
+- https://passwordre.netlify.app/

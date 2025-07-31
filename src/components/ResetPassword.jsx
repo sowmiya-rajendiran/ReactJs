@@ -28,7 +28,7 @@ function ResetPassword(){
     }
     return(
         <>
-        <div className="bg-white md:px-[60px] px-[30px] py-[45px] xl:w-2/6 lg:w-2/4 md:w-3/4 mx-[25px] md:mx-auto m-auto shadow-lg md:mt-[150px] mt-[60px] rounded-[10px] text-[#54276c]">
+        <div className="bg-white md:px-[60px] px-[30px] py-[45px] xl:w-2/6 lg:w-2/4 md:w-3/4 mx-[25px] md:mx-auto m-auto shadow-lg md:mt-[150px] mt-[80px] rounded-[10px] text-[#54276c]">
             <h1 className="font-bold text-[18px] text-center mb-[15px]">Reset Password</h1>
             <form onSubmit={handleResetSubmit} >
                 <label htmlFor="pwd" className="text-[15px] font-semibold text-left">Password</label>

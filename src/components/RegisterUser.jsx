@@ -27,7 +27,10 @@ function RegisterUser() {
             const status = err?.response?.status;
             if (status === 400) {
                 alert("User already exists");
-            }else{
+            }else if (status === 500) {
+                alert("Please enter a valid email address");
+            }
+            else{
                 alert('Something went wrong , Registration failed'); 
             }
         }

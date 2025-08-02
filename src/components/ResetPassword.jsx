@@ -39,6 +39,7 @@ function ResetPassword(){
                     required
                     onChange={(e) => setPassword(e.target.value)}
                     value={password}
+                    minLength={6}
                     
                 ></input><br></br>
                 <label htmlFor="confirmpwd" className="text-[15px] font-semibold text-left">Confirm Password</label>
@@ -49,6 +50,7 @@ function ResetPassword(){
                     required
                     onChange={(e) => setConfirmPassword(e.target.value)}
                     value={confirmPassword}
+                    minLength={6}
                     
                 ></input><br></br>
                 <button type="submit"  className="text-center bg-[#54276c] py-[10px] text-white text-[16px] font-semibold w-full mt-[25px] rounded-[4px] cursor-pointer">Reset Password</button>
